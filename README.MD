@@ -10,28 +10,28 @@ mini-gpt
 ├── README.MD
 ├── config.py
 ├── data
-│   ├── experiment_data
-│   │   ├── dropout_data
-│   │   │   ├── big_dropout_10.csv
-│   │   │   ├── big_dropout_25.csv
-│   │   │   ├── big_dropout_5.csv
-│   │   │   ├── small_dropout_10.csv
-│   │   │   ├── small_dropout_25.csv
-│   │   │   └── small_dropout_5.csv
-│   │   ├── layer_norm_data
-│   │   │   ├── no_norm.csv
-│   │   │   └── norm.csv
-│   │   └── transformer_blocks_data
-│   │       ├── 10_blocks.csv
-│   │       ├── 1_block.csv
-│   │       └── 5_blocks.csv
-│   └── training_data
-│       └── shakespeare.txt
+│   ├── experiment_data
+│   │   ├── dropout_data
+│   │   │   ├── big_dropout_10.csv
+│   │   │   ├── big_dropout_25.csv
+│   │   │   ├── big_dropout_5.csv
+│   │   │   ├── small_dropout_10.csv
+│   │   │   ├── small_dropout_25.csv
+│   │   │   └── small_dropout_5.csv
+│   │   ├── layer_norm_data
+│   │   │   ├── no_norm.csv
+│   │   │   └── norm.csv
+│   │   └── transformer_blocks_data
+│   │       ├── 10_blocks.csv
+│   │       ├── 1_block.csv
+│   │       └── 5_blocks.csv
+│   └── training_data
+│       └── shakespeare.txt
 ├── experiment-notebooks
-│   ├── README.md
-│   ├── dropout-experiment.ipynb
-│   ├── layer-normalization-experiment.ipynb
-│   └── transformer-block-experiment.ipynb
+│   ├── README.md
+│   ├── dropout-experiment.ipynb
+│   ├── layer-normalization-experiment.ipynb
+│   └── transformer-block-experiment.ipynb
 ├── generate.py
 ├── gpt_model.pth
 ├── model.py
@@ -42,5 +42,5 @@ mini-gpt
 ## How to run it 
 * **Training**
   * Navigate to the train file and run it.
-* **Generating new text**
+* **Generate new text**
   * Navigate to the generate.py and run it.
