@@ -6,6 +6,7 @@ To document and explain the process I wrote an article on medium.
 Link: https://medium.com/@viggotang/what-i-learned-building-a-gpt-from-scratch-8f09129485fb
 
 ## Repo Structure
+```
 mini-gpt
 ├── README.MD
 ├── config.py
@@ -38,7 +39,7 @@ mini-gpt
 ├── tokenizer.json
 ├── tokenizer.py
 └── train.py
-
+```
 ## How to run it 
 * **Training**
   * Navigate to the train file and run it.
