@@ -117,7 +117,7 @@ for step in range(config.steps):
 torch.save(model.state_dict(), "gpt_model.pth")
 
 df = pd.DataFrame(log)
-df.to_csv("1_block.csv")
+df.to_csv("norm.csv")
 
 
 

@@ -88,9 +88,10 @@ class GPT(nn.Module):
         self.token_table = nn.Embedding(config.vocab_size, config.embd_dim)
         self.blocks = nn.Sequential(
             TransformerBlock(config),
+            TransformerBlock(config),
+            TransformerBlock(config),
             )
         self.linear_out = nn.Linear(config.embd_dim, config.vocab_size)
-
 
     def get_batch(self,data_len, batch_size, block_size, token_data):
         starts= torch.randint(low=0, high=data_len-block_size-1, size=(batch_size,))

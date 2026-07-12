@@ -5,7 +5,7 @@ class Config:
     block_size: int = 16
     batch_size: int = 5
     lr: float = 1e-3
-    steps: int = 500000
+    steps: int = 100000
     dropout: float = 0.1
     vocab_size: int = 0
     average_loss_every: int = 2500
