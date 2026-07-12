@@ -43,5 +43,5 @@ mini-gpt
 ## How to run it 
 * **Training**
   * Navigate to the train file and run it.
-* **Generate new text**
+* **Generate text**
   * Navigate to the generate.py and run it.
